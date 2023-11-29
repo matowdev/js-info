@@ -20,11 +20,10 @@ function printWeekDay() {
   return console.log(`Тогда, 03 Января 2012.. был(а/о): ${arrDays[dayIndex]}!`);
 }
 
+// вызов/вывод результатов
 printWeekDay(); // Тогда, 03 Января 2012.. был(а): Вторник!
 
 // решение JS Info
-
-// функция которая определяет название/индекс дня недели (по передаваемой дате)
 function getWeekDay(date) {
   let days = ['ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'];
   return days[date.getDay()];

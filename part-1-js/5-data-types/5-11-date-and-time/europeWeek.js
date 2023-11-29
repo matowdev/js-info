@@ -24,10 +24,10 @@ function getEuropeWeekDay() {
   );
 }
 
+// вызов/вывод результатов
 getEuropeWeekDay(); // Тогда, 03 Января 2012.. был день недели под индексом: 2 или Вторник!
 
 // решение JS Info
-
 function getLocalDay(date) {
   let day = date.getDay();
 
