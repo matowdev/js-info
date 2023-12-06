@@ -1,15 +1,5 @@
 # On the topic:
 
-### Video-lecture / Terms of performance:
+### Lesson:
 
-[18.9...]()
-
-### A few words:
-
-### Links:
-
-- []()
-
-### Synopsis:
-
-[click..]()
+[9.9...]()
