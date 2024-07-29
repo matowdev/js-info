@@ -1,5 +1,5 @@
-# On the topic:
+# On the topic: "...for ex. Promises"
 
 ### Lesson:
 
-[9.9...]()
+[9.9. ... .]()
