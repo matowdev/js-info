@@ -11,6 +11,7 @@ console.log(user); // { name: "Василий Иванович", age: 35 }
 // преобразование объекта в JSON-строку
 const userToJSON = JSON.stringify(user);
 console.log(userToJSON); // "{"name":"Василий Иванович","age":35}"
+console.log(typeof userToJSON); // string
 
 // преобразование JSON-строки обратно в объект
 const userFromJSON = JSON.parse(userToJSON);
@@ -23,3 +24,4 @@ let user2 = {
 };
 
 let user3 = JSON.parse(JSON.stringify(user2));
+console.log(user3); // { name: 'Василий Иванович', age: 35 }
